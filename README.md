@@ -5,7 +5,7 @@ link wili
 ##commande pour raspbery pi:  
 >cat /proc/cpuinfo  
 ## Commande générales:  
-apt-get update : Met à jour votre version de Raspbian.  
+**apt-get update :** Met à jour votre version de Raspbian.  
 apt-get upgrade : Met à niveau tous les logiciels que vous avez installés.  
 clear : Efface l’écran du terminal des commandes et du texte précédemment exécutés.  
 date : Affiche la date actuelle.  
