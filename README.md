@@ -9,8 +9,8 @@ link wili
 **apt-get upgrade :** Met à niveau tous les logiciels que vous avez installés.  
 **clear :** Efface l’écran du terminal des commandes et du texte précédemment exécutés.  
 **date :** Affiche la date actuelle.  
-find / -name exemple.txt : Rrecherche dans le système entier le fichier exemple.txt et génère une liste de tous les répertoires qui contiennent le fichier.  
-nano example.txt : Ouvre le fichier example.txt dans “Nano”, l’éditeur de texte de linux.  
+**find / -name exemple.txt :** Rrecherche dans le système entier le fichier exemple.txt et génère une liste de tous les répertoires qui contiennent le fichier.  
+**nano example.txt :** Ouvre le fichier example.txt dans “Nano”, l’éditeur de texte de linux.  
 **poweroff :** Arrêt immédiat du raspberry PI.  
 **raspi-config :** Ouvre le menu des paramètres de configuration.  
 **reboot :** Pour rebooter immédiatement le Raspberry PI.  
@@ -27,15 +27,15 @@ nano example.txt : Ouvre le fichier example.txt dans “Nano”, l’éditeur de
 **rm example.txt :** Effacer le fichier example.txt.  
 **rmdir example_directory :** Effacer le répertoire example_directory (seulement si il est vide).  
 **scp user@10.0.0.32 :/some/path/file.txt :** Copier un fichier à travers SSH. Peut être utilisé pour télécharger un fichier à partir d’un ordinateur de bureau / ordinateur portable sur le Raspberry Pi. user@10.0.0.32 est le nom d’ utilisateur et l’adresse IP locale du bureau / ordinateur portable et /some/path/file.txt est le chemin d’accès et le nom du fichier sur le bureau / ordinateur portable.  
-touch :Crée un nouveau fichier vide dans le répertoire courant.  
+**touch :** Crée un nouveau fichier vide dans le répertoire courant.  
 ## Commande réseau internet:  
 **ifconfig :** Pour vérifier l’état de la connexion réseau que vous utilisez (pour voir si wlan0 dispose d’ une adresse IP par exemple).  
 **iwconfig :** Pour vérifier quel réseau l’adaptateur sans fil utilise par exemple.  
 **iwlist wlan0 scan :** Affiche une liste des réseaux sans fil actuellement disponibles sur wlan0.  
-iwlist wlan0 scan | grep ESSID : Utilisez grep avec le nom d’un champ pour répertorier uniquement les champs dont vous avez besoin (par exemple, pour lister les ESSID uniquement).  
+**iwlist wlan0 scan | grep ESSID :** Utilisez grep avec le nom d’un champ pour répertorier uniquement les champs dont vous avez besoin (par exemple, pour lister les ESSID uniquement).  
 **nmap :** Analyse votre réseau et répertorie les périphériques connectés, le numéro de port, le protocole, le système d’exploitation, l’état (ouvert ou fermé), les adresses MAC et d’autres informations.  
 **ping :** Teste la connectivité entre deux périphériques connectés sur un réseau. Par exemple, ping 10.0.0.32 envoie un paquet à l’appareil à IP 10.0.0.32 et attend une réponse. Il fonctionne également avec les adresses de sites Web.  
-wget http://www.website.com/example.txt : Télécharge le fichier example.txt depuis le Web et l’enregistre dans le répertoire courant.  
+**wget http://www.website.com/example.txt :** Télécharge le fichier example.txt depuis le Web et l’enregistre dans le répertoire courant.  
 ## Commande information système:  
 **cat /proc/meminfo :** Affiche des détails sur votre mémoire.  
 **cat /proc/partitions :** Affiche la taille et le nombre de partitions sur votre carte SD ou votre disque dur.  
