@@ -56,11 +56,14 @@ Touche HAUT : En appuyant sur la touche HAUT, vous entrez la dernière commande 
 
 ## Installl nodejs  
 >download zip sur le site de nodejs  
->version de ARM du raspberry pi name-m  
->aller dans le dossier download du raspi  
-> tar -xvf node-v14.15.0-linux-armv7l.tar.xz  //-xvf est la version du decompressage //donc savoir comment on la comptresser
->il va decompresser le fichier en dossier la ou on se trouve donc : download/node-v14.15.0-linux-armv7l //qui est maintenant un dossier 
->sudo cp -R * /usr/local/  //copy le dossier decompresser dans:  
+>version ARM du raspberry  
+**pi name-m**    
+>aller dans le dossier download du raspberry pi      
+> **tar -xvf node-v14.15.0-linux-armv7l.tar.xz**    
+//-xvf est la version du decompressage //donc savoir comment on la comptresser autre options: -xfj..etc   
+>il va decompresser le fichier en dossier la ou on il se trouve donc : download/node-v14.15.0-linux-armv7l //qui est maintenant un dossier   
+>**sudo cp -R * /usr/local/**    
+//copy le dossier decompresser dans:  
 
 
 
