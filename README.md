@@ -36,8 +36,11 @@ link wili
 **nmap :** Analyse votre réseau et répertorie les périphériques connectés, le numéro de port, le protocole, le système d’exploitation, l’état (ouvert ou fermé), les adresses MAC et d’autres informations.  
 **ping :** Teste la connectivité entre deux périphériques connectés sur un réseau. Par exemple, ping 10.0.0.32 envoie un paquet à l’appareil à IP 10.0.0.32 et attend une réponse. Il fonctionne également avec les adresses de sites Web.  
 **wget http://www.website.com/example.txt :** Télécharge le fichier example.txt depuis le Web et l’enregistre dans le répertoire courant.  
+
 ## Commande information système:  
-**cat /proc/meminfo :** Affiche des détails sur votre mémoire.  
+
+**cat /proc/meminfo :** Affiche des détails sur votre mémoire. 
+**uname -m :** affiche la version de l'architecture ARM (exemple: ARM 7l )  
 **cat /proc/partitions :** Affiche la taille et le nombre de partitions sur votre carte SD ou votre disque dur.  
 **cat /proc/version :** Affiche la version de la Rasperry Pi que vous utilisez.  
 **df -h :** Affiche des informations sur l’espace disque disponible.  
