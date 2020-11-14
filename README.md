@@ -39,8 +39,8 @@ link wili
 
 ## Commande information système:  
 
-**cat /proc/meminfo :** Affiche des détails sur votre mémoire. 
-**uname -m :** affiche la version de l'architecture ARM (exemple: ARM 7l )  
+**cat /proc/meminfo :** Affiche des détails sur votre mémoire.  
+**uname -m :** affiche la version de l'architecture ARM (exemple: ARM 7l )    
 **cat /proc/partitions :** Affiche la taille et le nombre de partitions sur votre carte SD ou votre disque dur.  
 **cat /proc/version :** Affiche la version de la Rasperry Pi que vous utilisez.  
 **df -h :** Affiche des informations sur l’espace disque disponible.  
