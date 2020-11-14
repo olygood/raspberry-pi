@@ -63,7 +63,15 @@ Touche HAUT : En appuyant sur la touche HAUT, vous entrez la dernière commande 
 //-xvf est la version du decompressage //donc savoir comment on la comptresser autre options: -xfj..etc   
 >il va decompresser le fichier en dossier la ou on il se trouve donc : download/node-v14.15.0-linux-armv7l //qui est maintenant un dossier   
 >**sudo cp -R * /usr/local/**    
-//copy le dossier decompresser dans:  /usr/local
+//copy le dossier decompresser dans:  /usr/local  
+
+## installez Visual studio code  
+###sue raspbery pi
+>curl -L https://headmelted.com/installers/apt.sh |sudo bash  
+>. <( wget -O - https://code.headmelted.com/installers/apt.sh )  
+
+
+
 
 
 
