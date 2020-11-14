@@ -53,3 +53,14 @@ link wili
 Touche HAUT : En appuyant sur la touche HAUT, vous entrez la dernière commande entrée dans l’invite de commande. C’est un moyen rapide de corriger les commandes qui ont été faites par erreur.  
 **vcgencmd measure_temp :**Affiche la température de la CPU.  
 **vcgencmd get_mem arm && vcgencmd get_mem gpu :** Affiche la mémoire divisée entre le processeur et le GPU.  
+
+## Installl nodejs  
+>download zip sur le site de nodejs  
+>version de ARM du raspberry pi name-m  
+>aller dans le dossier download du raspi  
+> tar -xvf node-v14.15.0-linux-armv7l.tar.xz  //-xvf est la version du decompressage //donc savoir comment on la comptresser
+>il va decompresser le fichier en dossier la ou on se trouve donc : download/node-v14.15.0-linux-armv7l //qui est maintenant un dossier 
+>sudo cp -R * /usr/local/  //copy le dossier decompresser dans:  
+
+
+
